@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class Q2_LW_02 {
 
-    // Method to return the number of digits in an integer
+    
     public static int countDigits(int number) {
-        // Handle 0 specially, since log10(0) is undefined
+        
         if (number == 0) {
             return 1;
         }
@@ -36,3 +36,4 @@ public class Q2_LW_02 {
         scanner.close();
     }
 }
+
