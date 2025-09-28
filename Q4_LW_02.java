@@ -6,13 +6,13 @@ public class Q4_LW_02 {
 
         int[] numbers = new int[5];
 
-        // Input 5 numbers
+        
         System.out.println("Enter 5 integers:");
         for (int i = 0; i < numbers.length; i++) {
             numbers[i] = scanner.nextInt();
         }
 
-        // Initialize largest and second largest
+        
         int largest = Integer.MIN_VALUE;
         int secondLargest = Integer.MIN_VALUE;
 
@@ -34,3 +34,4 @@ public class Q4_LW_02 {
         scanner.close();
     }
 }
+
