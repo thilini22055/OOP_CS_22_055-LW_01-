@@ -18,8 +18,8 @@ public class Q4_LW_02 {
 
         for (int num : numbers) {
             if (num > largest) {
-                secondLargest = largest; // update second largest
-                largest = num;           // update largest
+                secondLargest = largest; 
+                largest = num;           
             } else if (num > secondLargest && num < largest) {
                 secondLargest = num;
             }
@@ -34,4 +34,5 @@ public class Q4_LW_02 {
         scanner.close();
     }
 }
+
 
